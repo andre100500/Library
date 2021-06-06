@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Library.Models.CheckoutModels;
 
 namespace Library.Models.Catalog
 {
@@ -19,7 +20,9 @@ namespace Library.Models.Catalog
         public string CurrentLocation { get; set; }
         public string ImageUrl { get; set; }
         public string PatronName { get; set; }
-        
+
         public IEnumerable<AssetHoldModel> CurrentHolds { get; set; }
+
+        public IEnumerable<CheckoutModel> CheckoutHistory { get; set; }
     }
 }
