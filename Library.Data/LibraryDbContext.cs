@@ -2,6 +2,7 @@
 using Library.Data.Models.Assets;
 using Library.Data.Models.Contexts;
 using Library.Data.Models.Tags;
+using Library.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -60,25 +61,25 @@ namespace Library.Data
                 new()
                 {
                     Id = 1,
-                    Name = "Status Lost",
+                    Name = AssetStatus.Lost,
                     Description = "The item is lost."
                 },
                 new() 
                 {
                      Id = 2,
-                     Name = "Status Good",
+                     Name = AssetStatus.GoodCondition,
                      Description = "The item is in good condition."
                 },
                  new() 
                  {
                      Id = 3,
-                     Name = "Status Unknown",
+                     Name = AssetStatus.Unknown,
                      Description = "The item is in unknown whereabouts and condition."
                  },
                  new() 
                  {
                      Id = 4,
-                     Name = "Status Destroyed",
+                     Name = AssetStatus.Destroyed,
                      Description = "The item has been destroyed."
                  },
             };

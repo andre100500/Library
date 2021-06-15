@@ -160,6 +160,16 @@
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Library.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Library.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Models.dll": {}
+        }
       }
     }
   },
@@ -519,10 +529,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Library.Models/1.0.0": {
+      "type": "project",
+      "path": "../Library.Models/Library.Models.csproj",
+      "msbuildProject": "../Library.Models/Library.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Library.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.6"
     ]
   },
@@ -560,7 +576,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Andrew\\source\\repos\\Library\\Library.Models\\Library.Models.csproj": {
+              "projectPath": "C:\\Users\\Andrew\\source\\repos\\Library\\Library.Models\\Library.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
