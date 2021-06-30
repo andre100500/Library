@@ -1,0 +1,5 @@
+C:\Users\Andrew\source\repos\Library\Library.Models\obj\Debug\net5.0\Library.Models.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\Library\Library.Models\obj\Debug\net5.0\Library.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\source\repos\Library\Library.Models\obj\Debug\net5.0\Library.Models.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\Library\Library.Models\obj\Debug\net5.0\Library.Models.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\Library\Library.Models\obj\Debug\net5.0\Library.Models.csproj.CoreCompileInputs.cache
