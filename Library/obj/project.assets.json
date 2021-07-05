@@ -897,9 +897,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\source\\repos\\Library\\Library\\Library.csproj",
-      "projectName": "Library",
-      "projectPath": "C:\\Users\\Andrew\\source\\repos\\Library\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\source\\repos\\Library\\Library\\Library.Web.csproj",
+      "projectName": "Library.Web",
+      "projectPath": "C:\\Users\\Andrew\\source\\repos\\Library\\Library\\Library.Web.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Andrew\\source\\repos\\Library\\Library\\obj\\",
       "projectStyle": "PackageReference",
